@@ -15,9 +15,6 @@ jobs:
         with:
           python-version: '3.10'
           architecture: x64
-        run: |
-          echo "Build API"
-          sleep 10s
       - name: Display Python version
         run: python --version
       - name: Run tests
